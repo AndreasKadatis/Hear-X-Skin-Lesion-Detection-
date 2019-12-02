@@ -1,0 +1,13 @@
+Still struggled with the kernel issue (my python installations are not properly lined up) but did eventually reinstall the 
+libraries through Anaconda which now seems to be working, will now proceed with building Alexnet architecture. [1 hour]
+
+Worked through the Alexnet Coding structure, trying to understand the key principles between the different conv-
+olutional structures/layers. [1 hour]
+
+Wrote the Alexnet base script and did some preliminary runs, seemded to run well with some "deprcation" warnings issued, 
+will look into using more supported function calls once i understand the program better. [1 hour]
+
+The aim for this week is to get (at least) the Alexnet architecture running with training datasets from the CIFAR-10 database.
+Spent the rest of today looking at starting to do this, setting up prospective inputs (image examples) and what classifications
+will be sought to be inputted. Its important to establish what the input-output parameters need to be, as i am not familiar with the 
+internal filters and architecture. [2 hours]
