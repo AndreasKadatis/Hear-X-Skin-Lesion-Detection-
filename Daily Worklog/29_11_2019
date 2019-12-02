@@ -1,0 +1,22 @@
+Today was purely understanding what Keras related installations were needed, and getting the related python libraries installed 
+alongside the associated Keras packages needed to build the Alexnet architecture (which i will be beginning with). I therefore 
+installed the following libraries [5 hours]:
+
+1. Python 3
+2. OpenBLAS
+3. NumPy
+4. SciPy
+5. matplotlib
+6. HDF5
+7. Graphviz
+8. pydot-ng
+9. OpenCV
+10. Tensorflow
+11. Keras
+
+Please see: [https://github.com/hsekia/learning-keras/wiki/How-to-install-Keras-to-Ubuntu-18.04] for the isntallation process followed
+
+I then attempted to start building the Alexnet architecture of various online documentation, however there were problems with my 
+python installation that was causing issues. I rectified some of them, but am still struggling linking the correct kernels to my 
+script editor. I have been trying to use Jupyter but doesnt seem to be running off the correct kernel, however  the actual python
+installation seems to be working correctly now. [3 hours]
