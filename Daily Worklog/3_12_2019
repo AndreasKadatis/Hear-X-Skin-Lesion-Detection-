@@ -12,3 +12,9 @@ dog_breeds_alexnet/blob/master/Dog_Breeds_AlexNet.ipynb) and working through eac
 data pipeline is much better, however, there were a multitude of errors and adjustments i had to make to be able to accomodate for 
 differing tensorflow installations, and in the end the model failed to fit to the training data set provided. I expect this problem
 to come up in the future as well, so will need to accomodate for it. [4 hours] 
+
+General admin [includes emails]. [1 hour]
+
+Talked to Jaco, discussed starting points this week, as well as discussed my current software installations. Reinstalled my current
+tensorflow installations, adding GPU support, did some testing to confirm the installation and started working through some of the
+Tensorflow GPU modules discussed. (1.5 hours)
