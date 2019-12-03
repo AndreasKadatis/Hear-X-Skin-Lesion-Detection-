@@ -1,0 +1,6 @@
+Worked through more CNN tutorials and resources, have a pretty good grip now of the fundementals behind Convolutional neural networks,
+their hidden layers, the effect of max-pooling and fully connected layers.will seek to start learning how to train the Alexnet archi-
+tecture using the CIFAR-10 database. [1.5 hours] I am aware that Alexnet at this point is not the most optimal deep learning network, however I
+am getting the impression that it provided the base for the higher performing Resnet and GoogLeNet architectures that i want to work
+towards. 
+
