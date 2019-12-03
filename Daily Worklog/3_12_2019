@@ -4,3 +4,11 @@ tecture using the CIFAR-10 database. [1.5 hours] I am aware that Alexnet at this
 however I am getting the impression that it provided the base for the higher performing Resnet and GoogLeNet architectures that I  
 want to work towards. 
 
+I am struggling to understand the data pipeline construction that feeds into the Alexnet architecture. I am going to work through
+an application of it from an online resource to better understand the implementation. 
+
+Working through a lab with regards to image identification and labelling (can be found here: https://github.com/securetorobert/
+dog_breeds_alexnet/blob/master/Dog_Breeds_AlexNet.ipynb) and working through each line of code, my understanding of building the 
+data pipeline is much better, however, there were a multitude of errors and adjustments i had to make to be able to accomodate for 
+differing tensorflow installations, and in the end the model failed to fit to the training data set provided. I expect this problem
+to come up in the future as well, so will need to accomodate for it. [4 hours] 
