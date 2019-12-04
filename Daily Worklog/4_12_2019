@@ -1,0 +1,19 @@
+Worked through the GPU testing modules that Jaco sent through, after running the tests, and sorting through the various errors 
+involved, the calculation speeds indicate my new processing time through the Tensorflow GPU is 20x faster. [1 hour]
+
+Worked through online materials on Transfer Learning in preperatation for the model buidling tutorials on skin lesion 
+detection.[1.5 hours]
+
+Explored the fopensource data and associated Kaggle kernels, relating to the Skin lesion CNN task found here 
+{https://towardsdatascience.com/classifying-skin-lesions-with-convolutional-neural-networks-fc1302c60d54}, will now begin to 
+program this task in earnest. [1 hour]
+
+First importing and setting up the data files that the model will want to use and getting the pre-processing scripts to work. I
+will be fetching all the base code from {https://github.com/aryanmisra/Skin-Lesion-Classifier/}. Initial testing looking at using 
+the HAM-10000 dataset seemed to be fine, in terms of the preporcessing into Imagenet format (224*224*3 etc), I decided to make sure
+I understood the Architecture of mobile nets' network, especailly before running the code, trying to replicate their 80% accuracy,
+and then trying to modify the code using a different CNN. [2.5 hours]
+
+Worked through material relating to mobile-net architecture, which helped clear up some of the questions I had regarding parts on the
+previously mentioned base code repository. Filled in the rest of the code and will start running and testing out different models
+tomorrow. [2 hours]
