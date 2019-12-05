@@ -1,0 +1,21 @@
+Started by finishing up the preprocessing modules and making sure the data is properly accessed. [1 hour]
+
+I then started with the implementation of the model itself. Until this point i had been using Jupyters notebook and Spyder3 through
+Anaconda, assuming that I had installed the proper software to make use of my on board Nvidia GTX GPU. After running some of the 
+tests in the main model file, I realized that it was not seeing any GPU on my system. After running some other diagnostics, and 
+working through some online workthroughs to look at installing the proper Nvidia-Ubuntu drivers but none of those seem to have 
+worked. I will therefore have to move to using Google Colab (something ive wanted to avoid since i have an onboard gpu and enjoy 
+using Anaconda) in order to get access to a GPU processing unit. [2.5 hours]
+
+Ok so i tried working through the link Jaco sent through: 
+{https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d} to try and set up Colab, but for some reason 
+Colaboratory will not show up on any of my drive menus, even tho it says its connected (what ever that means). No online forums seem
+to provide any solutions so after a while i will just have to work through the Colab website directly (i do not understand what the
+difference is, but i will never the less raise the issue with Jaco in our next correspondence). [1 hour]
+
+Had to reinstall several libraries and move over the data into the new CoLab workstation, while also cleaning up and organizing my 
+google drive (which i will now be using much more frequently) for the rest of this project. [1 hour]
+
+Transferring the Image data over to Colab took a long time, while running through the code i transferred over did not take too
+long i was unfortunately hampered by the upload. Instead i started building the actual model code in preperation for 
+tomorrow. [2 hours]
