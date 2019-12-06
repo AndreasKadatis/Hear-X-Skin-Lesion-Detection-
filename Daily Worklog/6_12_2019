@@ -1,0 +1,15 @@
+While waiting for the rrest of the HAM Dataset to upload onto google drive I started looking through the actual model code with
+the eventual modification to another CNN, such as Resnet or VGG, in mind. I since worked through the Keras documentation on both
+Mobilenet and VGG (my first CNN that i will try out, specifically VGG16) and have a couple of questions regarding how i will modify 
+the code to be able to accomodate both. I will raise my concerns with Jaco if i am not able to resolve them during my testing phase
+which will start once the HAM datasets are finished migrating. [2 hours]
+
+Today was a very frustrating day. The upload of the HAM dataset part 2 took 8 hours. My linux PC extracts a zip file instantly, 
+including both HAM datasets when I downloaded them initially when I was working through Anaconda Jupyter. Unfortunatly i made the 
+mistake of assuming that Google drive was capable of the same thing and the combination of first uploading the zip file, and then
+trying to extract it there, took the whole day. Hopefully ill be able to work on this further tonight but if im not able to get 
+results ill have to finish it over the weekend. 
+
+HAM data-set is finally up and was able to do some runs but wont be able to finish up today. Ill be trying to finish up my goals 
+for this week (replicating the model results and then modifying the model accordingly) on the weekend, hopefully everything will 
+run smoothly again now that the cloud is completely set-up. [1.5 hours] 
