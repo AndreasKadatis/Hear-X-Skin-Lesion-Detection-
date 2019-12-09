@@ -14,3 +14,7 @@ After much testing and re-running the notebook seems to be running now, training
 anticipated. Currently the model takes 30-40 minutes to train the first epoch and approximately 20 minutes for the subsequent ones,
 much slower than HearX. If let Jaco know of the run times, and he will be looking over and presumably comparing it with 
 theirs. [3 hours]
+
+After conversing with Jaco over my progress and issues, he adivsed me to alter certain sections of my code with the aim of 
+improving my run times. After working through his adjustments, and figuring out what adjustments to make to the code, i emailed a 
+couple of last queries to him, just to make sure that what i am thinking of doing is the correct course of action. [1.5 hours]
