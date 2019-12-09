@@ -1,0 +1,9 @@
+Started by running through the model module after finishing the preprocessing of the HAM dataset on the weekend. Encountered some
+interesting bugs and errors, some of which I will have to take up with Jaco im afraid as i dont know how to solve them. For one, the 
+codebase im using is not compatible with the Tensorflow 2.0 version that hearx has been using. It is therefore throwing up errors 
+that i do not know how to rectify, and after exploring online forums for answers, the only solutions ive found are to revert back
+to an older version of Tensorflow or Rewrite the style of the code. As i am not comfortable with doing the latter, i did the former,
+eliminating the errors, but then realised my runtime is exceedingly slow, 1 hour per epoch. Knowing that there are 30 epochs (
+model run throughs) i checked the GPU and it seems it was running virtually the same speed as the CPU, as i was running tensorflow
+1.3 not 2. This will have to be discussed with Jaco. [2 hours]
+
