@@ -10,3 +10,7 @@ model run throughs) i checked the GPU and it seems it was running virtually the 
 Reinstalled Keras latest version and got rid of previously outlined error, however now everytime i run the sequence the entire 
 virtual enviroment crashes. [1 hour]
 
+After much testing and re-running the notebook seems to be running now, training the model appropriately, but taking longer than 
+anticipated. Currently the model takes 30-40 minutes to train the first epoch and approximately 20 minutes for the subsequent ones,
+much slower than HearX. If let Jaco know of the run times, and he will be looking over and presumably comparing it with 
+theirs. [3 hours]
