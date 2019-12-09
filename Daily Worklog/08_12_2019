@@ -1,0 +1,4 @@
+Finally started to run the pre-processing module, sorted out bugs and various errors while letting the module sort through
+the training and validation data set and letting it copy over the files to their respective locations. Everything seems to have
+gone correctly and so with the pre-processing sorted now, hopefully, i can start figuring out the training of the actual 
+model. [4 hours] 
