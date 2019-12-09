@@ -7,3 +7,6 @@ eliminating the errors, but then realised my runtime is exceedingly slow, 1 hour
 model run throughs) i checked the GPU and it seems it was running virtually the same speed as the CPU, as i was running tensorflow
 1.3 not 2. This will have to be discussed with Jaco. [2 hours]
 
+Reinstalled Keras latest version and got rid of previously outlined error, however now everytime i run the sequence the entire 
+virtual enviroment crashes. [1 hour]
+
