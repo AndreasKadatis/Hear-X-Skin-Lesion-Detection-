@@ -1,0 +1,21 @@
+The first thing done was to access a different un-augmented images data-set as advised by Jaco to reduce the runtime of
+the system. At the moment my runtime for the first epoch of the system was approximately an hour while theirs was 10-20 
+mins, with the following epochs being much less at around 2 mins. The issue was that i had run the pre-processing module 
+fully and created a super file directory containing 38000 augmented images. My training file size was therefore very 
+large and had to be reduced. This took a while as i had to only run the first section of the pre-processing 
+module. [1.5 hours]
+
+After this was completed and confirmed i moved on to fixing the image generators in a similiar manner as to that conveyed
+by jaco in the email correspondence of the 9th. This was challenging as i didnt understand the method and faced multiple
+errors when i started converting the syntax over from calling keras directly to calling it through tensorflow.
+Once these were rectified, my GPU performance jumped from 22x faster to 65x faster, indicating the nw style was much more
+efficient than calling purely through keras. Once i did this some of the results were not what i expected,
+with runtimes very similiar to what i had before, even with the smaller data-set. After doing some more reading
+on the online documentation and looking at the way HearX had done it i realised that the actual training sample was still
+at 9000 images and that HearX had only used 2000. Changing this immediatly sped up the first epoch to virtually the same 
+rates that HearX achieved. [4 hours]
+
+Unfortunately while the first epoch sped up the whole model would hang on the first epoch. After looking at the new data 
+generators i realised that the validation set was not being recognized, for some reason, by the new method. I then experi-
+mented by reverting to the old method, which had seen the datasets correctly, for both the training dataset and validation 
+dataset, and the model was then able to run through all 30 epochs without error. [1 hour]
