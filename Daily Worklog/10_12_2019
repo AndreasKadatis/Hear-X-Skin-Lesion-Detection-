@@ -19,3 +19,7 @@ Unfortunately while the first epoch sped up the whole model would hang on the fi
 generators i realised that the validation set was not being recognized, for some reason, by the new method. I then experi-
 mented by reverting to the old method, which had seen the datasets correctly, for both the training dataset and validation 
 dataset, and the model was then able to run through all 30 epochs without error. [1 hour]
+
+The problem at the moment is that the last cell of the model notebook, needed to calculate the confusion matrix is not working for
+some unknown reason. Otherwise Jaco is pleased with the higher runtimes and has suggested material for the next stage of the process
+once i rectify the issue, alongside the transfer learning material researched last week. [1 hour]
