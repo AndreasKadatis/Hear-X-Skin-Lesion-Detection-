@@ -12,3 +12,6 @@ reverting back to their original state but keeping the new tensorflow implmentat
 the most common evaluation methods for image classification as set out by iSIC 2019 guidelines, while noting down the aspects most
 relevant to our case. I then started working through the fast.ai team results, who also based their model off of the same code
 i have been working on till now. [2.5 hours]
+
+Augmented model is still running. Worked through the fast.ai model fully as well as explored their online database, specifically
+their performance metrics. Also looked through several of the kernels on kaggle related to the 2018 ISIC competition. [2 hours] 
