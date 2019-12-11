@@ -6,3 +6,9 @@ things mentioned in the tensorflow documentation, i looked through the source co
 variable statement which was causing the issues. Once corrected it produced the imbalanced data mentioned by Jaco. Ill now move on
 to researching how to combat these imbalances followoing the advice provided yesterday. [1.5 hours]
 
+While researching the different assesment methods for image classifiers i became curious as to how much better the model would 
+with the augmented image base. I therefore began training the previous augmented model notebook, with the changes to the generators
+reverting back to their original state but keeping the new tensorflow implmentation. While this was running i worked through all
+the most common evaluation methods for image classification as set out by iSIC 2019 guidelines, while noting down the aspects most
+relevant to our case. I then started working through the fast.ai team results, who also based their model off of the same code
+i have been working on till now. [2.5 hours]
