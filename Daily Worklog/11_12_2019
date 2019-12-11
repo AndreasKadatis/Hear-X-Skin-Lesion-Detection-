@@ -1,0 +1,8 @@
+Worked through the confusion matrix documentation, while having the model run in the background, retraining at a slower rate,
+i suspect because it is earlier in the day with more traffic on the network. [1 hour]
+
+After the model finished training, i started to try once again to fix the confusion_matrix issue, however after trying several
+things mentioned in the tensorflow documentation, i looked through the source code repository and found that i had missed a single 
+variable statement which was causing the issues. Once corrected it produced the imbalanced data mentioned by Jaco. Ill now move on
+to researching how to combat these imbalances followoing the advice provided yesterday. [1.5 hours]
+
