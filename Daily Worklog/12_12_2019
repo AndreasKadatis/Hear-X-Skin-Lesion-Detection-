@@ -13,3 +13,12 @@ data sets, specifically played around with the keras ImageDataGenerator function
 part of the pre-processing module, attempting to understand fully what it had done. The model finally finished training and showed
 improved results as to what i was expecting, with at least 30-40% accuracy all categories. I will compile these results and look
 further into what preo-processing methods some of the other kernels attempted. [1.5 Hours]
+
+Worked throug hthe Fast.ai in more detail but decided to leave it for a period as they make use of their extensive library, rather
+than the more traditional tensorflow/keras methods. I then moved on to looking at the kaggle kernels, trying to gauge some diff-
+erent methods with regards to augmentation. This one for example {https://www.kaggle.com/sid321axn/step-wise-approach-cnn-model-
+77-0344-accuracy} reccomends the same augmentation method as the previous model me and Jaco had been discussing. This one also 
+showed how to list the different meta-data categories visually, something we might want to look into. For the rest of today ill
+be looking at the next ste which is the application of different models through the use of transfer learning. [1.5 hours]
+
+
