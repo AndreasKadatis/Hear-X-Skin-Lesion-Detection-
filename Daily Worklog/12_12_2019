@@ -8,3 +8,8 @@ original author somehow enlargens the datset to around 5000 training images for 
 model was not able to complete so have now reduced the training size from 2000 images to 500. THe idea is not to get an exception-
 ally high accuracy but one that is more spread out. It is currently running and should be done within the hour. [2.5 hours]
 
+Worked through some tutorials on image augmentation, as this is what seems to be the most improtant part when faced with limited 
+data sets, specifically played around with the keras ImageDataGenerator function and consequently worked through the augmentation 
+part of the pre-processing module, attempting to understand fully what it had done. The model finally finished training and showed
+improved results as to what i was expecting, with at least 30-40% accuracy all categories. I will compile these results and look
+further into what preo-processing methods some of the other kernels attempted. [1.5 Hours]
