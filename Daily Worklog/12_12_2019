@@ -1,0 +1,10 @@
+After sending my summary of work to Jaco, he advised me as to what hearX was looking at wanting to do and what their main ob-
+stacle was, the skewed results as a result of the skewed datset provided from the HAM database. My first instinct was to look
+at the dataset, as the model was remarkably accurate for the large dataset containg "nv" samples. My python is still patchy in 
+places, especially with regards to the multiple strange libraries the code makes use of, so after working through the key func-
+tions from the Sklearn library and the subsequently working through the Preprocessing module, what i had not understood fully,
+but suspected while inititially trying to get the preoprocessing model to work, was the the augmentation script written by the 
+original author somehow enlargens the datset to around 5000 training images for each category. My run yesterday of the augmented 
+model was not able to complete so have now reduced the training size from 2000 images to 500. THe idea is not to get an exception-
+ally high accuracy but one that is more spread out. It is currently running and should be done within the hour. [2.5 hours]
+
