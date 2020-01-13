@@ -17,3 +17,8 @@ first 5 epochs whereas for mobilnet this was much higher at 50%. I then decided 
 to the layers, just to set a baseline of comparison to the model. Im letting gthis run through fully, regardless of its accuracy
 just to see what the actual end results will be. While this has been running ive looked into the different Keras measurement 
 functions, as well as what techniques with regards to layer freezing is recomended. [2 hours]
+
+the results after running the un-changed VGG19 model produced non-sensical results in the end. Evidently i did not implement 
+the model correctly, and as a result the model trained in as it shluld have. The goal for tomorrow will to be to change tactic,
+rather than trying to force the different models into the mold of the imagenet structure, try to implmement the model first, 
+then try to fold that completed architecture into the broader notebook. [1.5 hours]
