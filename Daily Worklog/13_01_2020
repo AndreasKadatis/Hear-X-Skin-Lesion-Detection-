@@ -2,3 +2,11 @@ First day back after the new year break, will seek to pick up where i left off l
 aquainted again with the work that i had just done in Dec, namely the pre-processing/image augmentation, and what my agenda 
 will be over the next 4 weeks. I think i will start looking at the different keras models appropriate to this task, and seek
 to start laying out the framework for the input-output framework me and Jaco discussed last month. [2 hours] 
+
+Worked through the VGG19 model with the idea of it being the next structure to implement and compare to mobilenet. Firts thing
+was to understand the adjustments that were made to Mobilenet in the initial implementation, namley the elimination of the 
+last 6 layers and the freezing of the last 23. Now i will discuss with Jaco my queries regarding these adjsutments and have now
+done something silimiair to VGG. It is currently training so it will be interesting to see the results. Problem is i am not fam-
+iliar with the reasoning behind these adjustments so i might do some further research into why these decisions were made, working
+off the prelim results from the first run (done without rea understanding) that will give a good impression of the overall robust-
+ness of the model. [2 hours]
