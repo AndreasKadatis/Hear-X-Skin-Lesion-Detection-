@@ -10,3 +10,10 @@ done something silimiair to VGG. It is currently training so it will be interest
 iliar with the reasoning behind these adjustments so i might do some further research into why these decisions were made, working
 off the prelim results from the first run (done without rea understanding) that will give a good impression of the overall robust-
 ness of the model. [2 hours]
+
+First run of the model with the arbitrarily changed layers i let only run for about half an hour, all the while observing the 
+categorical accuracy of each run through of each epoch. They were much lower than the mobilenet comparision, around 10% for the
+first 5 epochs whereas for mobilnet this was much higher at 50%. I then decided to run the VGG model as is, with out any changes
+to the layers, just to set a baseline of comparison to the model. Im letting gthis run through fully, regardless of its accuracy
+just to see what the actual end results will be. While this has been running ive looked into the different Keras measurement 
+functions, as well as what techniques with regards to layer freezing is recomended. [2 hours]
