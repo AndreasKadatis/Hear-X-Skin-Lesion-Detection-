@@ -15,3 +15,10 @@ ill have to revert back to the first steps and last, and see if i can make them 
 accuracy from the replicated examples. I am currently looking at [https://www.kaggle.com/elvinj1203/resnet50-84-test-acc] as an
 example of the resnet implementation. The resnet is still running but the epoch accuracy measures indicate the same problem.
 [2 hours]
+
+The resent architectures did not work out and produced similair results compared to the VGG model. There is a conceptual error 
+somehwere, as according to me the models should be showing at least some form of training and image recognition. At the moment
+they are showing no learning, which means the augmentation methods performed on the images previously is messing with the 
+implementation of the model. I still cannot believe this is the case, so i will spend tomorrow going through the models again,
+try some new methods and styles of augmentation, but if i still cannot get some constructive results ill have to consult Jaco
+with my obstacles. [2 hours]
