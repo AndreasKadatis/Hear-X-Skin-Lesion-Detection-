@@ -7,3 +7,11 @@ this would defeat the perpose. Therefore my largest obstacle at the moment, unfo
 and keras functions and applications, as well as my lack of proficiency with python. While much better than when i started with 
 this project, it is taking time getting those proficiency levels up in all aspects. I will keep going further with this, as i feel
 i am making progress in what i described above. [3.5 hours]
+
+After trying several renditions of the VGG model, i wasnt able to more than 15% categorical accuracy, which is essentially guessing.
+While running the last VGG process i started on ResNet50 to see if i faced the same problem. My suspicion, is that the image aug-
+mentation for the Imagenet, as well as the image pre-processing, is not compatible through to each architecture. If this is the case,
+ill have to revert back to the first steps and last, and see if i can make them constant throughout, and still achieve near the same 
+accuracy from the replicated examples. I am currently looking at [https://www.kaggle.com/elvinj1203/resnet50-84-test-acc] as an
+example of the resnet implementation. The resnet is still running but the epoch accuracy measures indicate the same problem.
+[2 hours]
