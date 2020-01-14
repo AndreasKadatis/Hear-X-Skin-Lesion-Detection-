@@ -1,0 +1,9 @@
+Trying a diferent approach, i started research exclusively on the VGG method with conjuction to the methods involving freezing and
+adding layers. After working through a couple online examples and tutorials on VGG and neural net adjustments with regards to transfer 
+learning in general, i started re-writing the faulty structural code from yesterday. The challenge at the moment is not to get a 
+VGG system working, but rather one that is part of a larger standardized notebook that can be used for the mobilenet architecture
+previously, and any future models as well. If i was to just copy and paste code from other online implementations of the model
+this would defeat the perpose. Therefore my largest obstacle at the moment, unfortunately, is my limited knowlege of tensorflow
+and keras functions and applications, as well as my lack of proficiency with python. While much better than when i started with 
+this project, it is taking time getting those proficiency levels up in all aspects. I will keep going further with this, as i feel
+i am making progress in what i described above. [3.5 hours]
