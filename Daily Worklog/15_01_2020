@@ -1,0 +1,5 @@
+Ive begun the process of changing the images base for the training of the model. With the Mobilenet i first performed extensive pre-
+processing to segregate the iamges into different folders etc. With this resnet model, [https://www.kaggle.com/elvinj1203/resnet50-84-test-acc]
+, they are able to achieve 85% accuracy (is the claim), without the extensive augmentation performed by the previous architecture.
+What im gonna do is first see if their results are replicable, and if this is the case, see if i can match their results with the
+same mobilenet model. Issue is that transferring the files over into the format requested by the code is taking very long. [4 hours]
