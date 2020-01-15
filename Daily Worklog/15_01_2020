@@ -3,3 +3,9 @@ processing to segregate the iamges into different folders etc. With this resnet 
 , they are able to achieve 85% accuracy (is the claim), without the extensive augmentation performed by the previous architecture.
 What im gonna do is first see if their results are replicable, and if this is the case, see if i can match their results with the
 same mobilenet model. Issue is that transferring the files over into the format requested by the code is taking very long. [4 hours]
+
+The data is almost uploaded onto the Google Drive, in which case i can start running the new model. What i would like to see is a replication of the 
+results claimed by the original author of this specific structure. If this is the case, i will try to apply the imagenet and then VGG
+architectures to it and see the results achieved. The standard model framework has now been written and the mobilenet and VGG
+frameworks are on standby waiting for the final process run. There will however probably be a delay as i expect there to be some
+bugs and errors considering the new style of image processign that ive undertaken. [2.5 hours]
