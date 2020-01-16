@@ -1,0 +1,9 @@
+Finished off yesterdays work by implementing the resnet architecture, results were indeed the same as in the cite previously 
+referenced, however each run was extremely slow, 15-20 seconds at least. This may be because no layers are frozen and NN is 
+training each layer. I will look into what can be done in this regard to speed up the process. What is apparent is that the 
+heavy augmentation performed by the Mobilenet architecture can be done differently and still achieve strong results. [1 hour]
+
+Started implmenting the VGG architecture into the standard model. Also did some more reading of what the other kernels have done 
+with regards to freezing layers, and in particular in what models they did what techniques. Confusion still persists for me with
+regards to the extra layers a lot of the DNN have added on to the standard in built keras models. How do you know what to add, 
+what benefits does it increase? [1.5 hours]
