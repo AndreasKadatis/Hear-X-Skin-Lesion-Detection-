@@ -7,3 +7,16 @@ Started implmenting the VGG architecture into the standard model. Also did some 
 with regards to freezing layers, and in particular in what models they did what techniques. Confusion still persists for me with
 regards to the extra layers a lot of the DNN have added on to the standard in built keras models. How do you know what to add, 
 what benefits does it increase? [1.5 hours]
+
+After finishing the VGG model adjustments, and running it, the first two training rounds indicated high accuracy, in line with 
+the Resnet implementation, but a little bit faster as the VGG version included the layere freezing tried previously in the VGG
+version that failed. Unfortunately, it failed a third round as one of the images was reportedly corrupt. Examining the said image 
+in the drive showed that it had not been uploaded properly. Previously when the new image preprocessing part collated the images
+from the csv file to the actual images, it reported that a couple hundred images couldnt be matched. I didnt pay this much heed
+as firstly i didnt know how to fix it, and second falsely assumed it didnt matter as it should only train the model on the val-
+idated images. Evidently this was not the case and after trying several things to find all the corrupt images i have had to start
+the re-upload of all the images in the HAM dataset. I can only think that in the initial upload something went wrong. Looking
+at the folder on my physical hardrive, there seems to be about 300 images missing. its possible something happened when i merged
+part 1 and 2 of the dataset together. In any case the upload is about halfway through at the moment, and in the meantime ive been
+looking at different pre-processing methods i would like to try once its done and done correctly, as well as a fourth InceptionNet
+model that looks promising. [3.5 hours]
