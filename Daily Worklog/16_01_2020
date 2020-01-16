@@ -20,3 +20,12 @@ at the folder on my physical hardrive, there seems to be about 300 images missin
 part 1 and 2 of the dataset together. In any case the upload is about halfway through at the moment, and in the meantime ive been
 looking at different pre-processing methods i would like to try once its done and done correctly, as well as a fourth InceptionNet
 model that looks promising. [3.5 hours]
+
+Alright so when the re-upload finished and i ran the pre-processing part of the model, i again received notifications of non-val-
+idated images. One thing that has severly limited my error solving in this regard is the latency with Google drive. I can barely
+look into the main image folders without the computer freezing. Luckily everytime the process run failed, it reported an image 
+that was corrupted as the reason the training stopped. After struggling with these drive issues yesterday and today i finally 
+realised i should check the activity log, just on the off chance that whats happening is listed there. Two things were shown, one
+that i had "edited" two of the images from a jpeg to a .txt file, and i had also "moved" 273 images to the trash. My experience
+with google drive has been challenging to say the least so far. After correcting the mistakes made by the drive, i have restart-
+ed the training process and indeed all looks fine so far (we'll see). All images have been validated at least. [2 hours]
