@@ -1,0 +1,8 @@
+After having family commitments on friday and saturday ill be working today instead. After receiving great feedback from Jaco
+with regards to what i worked on last week, he reccomended firstly to make sure all references to tensorflow.keras is the same 
+not mixed with just keras callbacks, and that i start using tf 2.1. He also pointd out that i have not been making use of the 
+class_weight method in order to even out the data set and get it more balanced. After figuring out how to write it into the stan-
+dard model, and resolving a couple of issues, i set the VGG model to run and so far it seems to be reaching higher accuracies 
+faster than before, but will difinitevly know at the end. I then started porting over the Mobilenet model from last year over, 
+however it seems to be having errors that VGG and Resnet did not have. I am currently trying to resolve them while the VGG model
+is training. [3 hours]
