@@ -6,3 +6,10 @@ dard model, and resolving a couple of issues, i set the VGG model to run and so 
 faster than before, but will difinitevly know at the end. I then started porting over the Mobilenet model from last year over, 
 however it seems to be having errors that VGG and Resnet did not have. I am currently trying to resolve them while the VGG model
 is training. [3 hours]
+
+I resolved the issues with Mobilenent and let it run through its round of training, while the results from VGG seemed to indicate
+a small improvement over the previous run presented to Jaco. The mobilenet however acheived 99% accuracy in the training and high-
+er accuracies with the other models when tested using the test data. It was alos by far the fastest. This was to be expected, 
+Mobilenet was designed for fast image processing on smaller mobile devices, hence why we started of with that one. What is also
+great is that compared to last year it is a huge improvement. Unfortunately the fix i used did not work in the Inceptionnet model
+so far so i am still trying to resolve this error. [2.5 hours]
