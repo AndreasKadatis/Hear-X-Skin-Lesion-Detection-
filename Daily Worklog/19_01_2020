@@ -13,3 +13,9 @@ er accuracies with the other models when tested using the test data. It was alos
 Mobilenet was designed for fast image processing on smaller mobile devices, hence why we started of with that one. What is also
 great is that compared to last year it is a huge improvement. Unfortunately the fix i used did not work in the Inceptionnet model
 so far so i am still trying to resolve this error. [2.5 hours]
+
+Ok so there is something not 100% right with the InceptionV3 model. I've have worked line by line through the the original arti-
+cle, and i cannot seem to get the error resolved. In the end i dont think its needed, as the Mobilenet has performed much better 
+than both the VGG and Resnet models. Ive written the image preprocessing parts into the Mobilenet model and will be testing and 
+trying out other biased data set methods that ive read up on tomorrow, with the idea of eventually moving to a bagging technique 
+ensemble model for the next 3 weeks. [2.5 hours]
