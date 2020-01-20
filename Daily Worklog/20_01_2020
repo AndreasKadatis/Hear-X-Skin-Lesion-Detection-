@@ -2,3 +2,12 @@ I wont be able to work full workdays this week, but will try to do at least 4 ho
 .preprocessing modules of the Mobilenet model, as i assume it will be the focus for the next couple of weeks (considering its
 much better performance vs the others). I am also reading through other materials on how to deal with biased datasets, as i 
 will be implementing those methods next. [1 hour]
+
+There was a small issue with the original run of the new Mobilenet model, but it was easily resolved and the new one is almost 
+finished running. I also am running a third, at the same time (as google allows two GPU's so why not) to see what a second train-
+ing produces. While resolving this i have done a lot of research into data bias and specifically, offline and online image aug-
+mentation. This is something i learnt about briefly in my computer vision course, but never really ended up applying anywhere.
+From what i was able to gather, in the original mobilenet implementation last year, we performed very heavy offline image 
+augmentation, but evidently was not as effective using the other methods as the ones using this new structure. Once the new mobi-
+lenet architecture is finished training ill send the results to Jaco as well as my thoughts on where to go with the image preprocessing
+and augmentation. [3 hours]
