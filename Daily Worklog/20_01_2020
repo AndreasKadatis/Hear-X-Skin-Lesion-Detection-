@@ -1,0 +1,4 @@
+I wont be able to work full workdays this week, but will try to do at least 4 hours each day. Ive started to include in the 
+.preprocessing modules of the Mobilenet model, as i assume it will be the focus for the next couple of weeks (considering its
+much better performance vs the others). I am also reading through other materials on how to deal with biased datasets, as i 
+will be implementing those methods next. [1 hour]
