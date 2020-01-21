@@ -1,0 +1,8 @@
+Feedback from Jaco was positive on the Mobilenet results, although he raised a noticable issue in the discrepancy between the 
+validation accuracy and the training accuracy (around 20%). He outlined two main methods, a dropout layer and L1/L2 regularization.
+There is already a Dropout layer in the existing structure, so what i am going to do is focus on data augmentation, ie get the train-
+ing set larger, and then also include the regularization methods. I spent today working through the resources Jaco sent through as
+well as looking how to include it into the existing model. An issue that occurred to me today is what end accuracy is feasable
+for us? The average model from the HAMdataset competion was around 80%, but to get better will not be easy, and i doubt my skill
+level is enough to get us there. I might raise this with Jaco, and see what their expectations are, and also organise a skype 
+meeting with him next week.[3 hours]
