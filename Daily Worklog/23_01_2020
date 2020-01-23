@@ -1,0 +1,8 @@
+So i implemented 2 things today and trained the model 3 times, all will the goal of maximizing the validation accuracy. First 
+i added two dense layers into the mobilenet model with the goal of introducing L2 regularization. Accuracy increased by 1% after
+adding these layers but did not see other large improvements. I then tried a sequential approach where i generated 3 training 
+sets using the ImageGenerator keras function, and had the model train on each set sequentially. This was done as the accuracy 
+could also be improved through augmentation orgetting a larger dataset, which this does. This improved the model by a further 2%,
+so at the moment validation accuracy is level at 85%. I think this is a good approach but i am not sure about my additional layers,
+so what i will be doing is looking at what extra layers should be added that make more sense with regards to the Hearx 
+application. [3.5 hours] 
