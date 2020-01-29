@@ -1,0 +1,7 @@
+Today is going to be the first day of the last tw weeks of my work with Hearx. I have been unable to work full days for the last
+week and a half due to prior commitments, howver am now free to work full time again till the end of my internship. I will be work-
+ing 10-11 hours a day for the next three days and then normal workdays this weekend, and then a normal work week next week to finish
+and accumulate the requisite hours. The goal for today is to try a last couple of new techniques to get the validation accuracy of 
+of the model higher. I've already started looking at the new layers that i want to add in conjuction with stronger L2 regularization.
+Augmentation at this point is second priority, as the evidence seems that it might not be as effective as other potential 
+methods. [1.5 hours] 
