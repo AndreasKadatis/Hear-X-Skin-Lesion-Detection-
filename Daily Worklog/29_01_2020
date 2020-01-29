@@ -29,3 +29,8 @@ for me to work through. That being said, maybe i am being unneccessarily pessimi
 been therefore looking at models for other image classification tasks that claim much higher accuracies but are not neccesarily
 applicable to our case, with this competition in particular catching my attention as possibly another avenue to follow [
 https://www.kaggle.com/omkarsabnis/seedling-classification-using-cnn-v13-0-95]. [1 hour]
+
+What i think ill do tomorrow is try to achieve some results using different layers for regularization. Today was very much a 
+augmentation workthrough to difintively understand what the limitations are towards the skin lesion application. Hopefully
+i can do the same tomorrow and be able to produce to Jaco a detailed outline of what my thoughts are and where to go from here. 
+[1 hour]
