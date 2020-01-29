@@ -12,3 +12,12 @@ Ive made a few changes and added some additional class weights to see if i can m
 ground. Ive also stumbled across an interesting way of using the ImageDataGenerator function, while also making use of python
 inbuilt over-fitting functions, [https://medium.com/analytics-vidhya/how-to-apply-data-augmentation-to-deal-with-unbalanced-datasets
 -in-20-lines-of-code-ada8521320c9] and will now work on bringing it in on a third version of the Mobilnet approach. [2 hours]
+
+The third run of the previous augmentation method previously mentioned (after making several changes) produced no substantial 
+improvement, still level at 84% validation accuracy. Also after trying to get this example working in my code [https://medium
+.com/analytics-vidhya/how-to-apply-data-augmentation-to-deal-with-unbalanced-datasets-in-20-lines-of-code-ada8521320c9] i realised
+that it follows a completely different way of loading the images into the model and training it. After reading up on the different
+loading methods for images, i realised once again just how inexperienced i am with the detail of python and its associated libraries.
+It will take quite a while (at least a couple of hours) for me to figure out a way to get the images into a format that would
+work, and i am still not 100% sure it would work. I am therefore unsure if i should continue down this path. What i might do,
+is explore other options more applicable to what ive done, and ask Jaco for advice with regards to this method. [2.5 hours] 
