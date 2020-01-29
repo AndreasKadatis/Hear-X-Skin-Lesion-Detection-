@@ -5,3 +5,10 @@ and accumulate the requisite hours. The goal for today is to try a last couple o
 of the model higher. I've already started looking at the new layers that i want to add in conjuction with stronger L2 regularization.
 Augmentation at this point is second priority, as the evidence seems that it might not be as effective as other potential 
 methods. [1.5 hours] 
+
+After looking at L2 regularization code examples, and again at how i implemented the layered augmentation i decided there might be
+more value persuing better data augmentation vs regularization, as i dont think my attemt before was as good as i thought it was.
+Ive made a few changes and added some additional class weights to see if i can make it better, and have it training now in the back-
+ground. Ive also stumbled across an interesting way of using the ImageDataGenerator function, while also making use of python
+inbuilt over-fitting functions, [https://medium.com/analytics-vidhya/how-to-apply-data-augmentation-to-deal-with-unbalanced-datasets
+-in-20-lines-of-code-ada8521320c9] and will now work on bringing it in on a third version of the Mobilnet approach. [2 hours]
