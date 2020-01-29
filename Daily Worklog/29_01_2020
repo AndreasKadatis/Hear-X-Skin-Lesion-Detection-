@@ -21,3 +21,11 @@ loading methods for images, i realised once again just how inexperienced i am wi
 It will take quite a while (at least a couple of hours) for me to figure out a way to get the images into a format that would
 work, and i am still not 100% sure it would work. I am therefore unsure if i should continue down this path. What i might do,
 is explore other options more applicable to what ive done, and ask Jaco for advice with regards to this method. [2.5 hours] 
+
+Im very conflicted at the moment in terms of how far i think this style of image classification can go. All the examples i have
+worked through so far have really only gotten to around the accuracy i have been abe to achieve. There is also the unfortunate 
+case that the ones that do achieve the 90% accuracies are exceedingly complex, so much so that it would be very time intensive
+for me to work through. That being said, maybe i am being unneccessarily pessimistic, i will raise these issues with Jaco. I have
+been therefore looking at models for other image classification tasks that claim much higher accuracies but are not neccesarily
+applicable to our case, with this competition in particular catching my attention as possibly another avenue to follow [
+https://www.kaggle.com/omkarsabnis/seedling-classification-using-cnn-v13-0-95]. [1 hour]
