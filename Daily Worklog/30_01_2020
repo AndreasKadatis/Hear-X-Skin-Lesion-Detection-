@@ -8,3 +8,9 @@ two gpu's, running different sets of hyperparameters, and keeping a log of the r
 model checkpointing is using val_loss as the standard for choosing the model to save. While this might make sense, i am after all
 looking for improvements in val_accuracy, and looking back at the original Mobilenet model from before the Christmas break, they 
 also used Val_accuracy as the metric for checkpointing. Ill look at this once the first couple of trains are through. [3 hours]
+
+Ran through 5 different sets of hyperparameters, and have quickly seen that this is a finely tuned model architecture. Any large
+dropout layers and the model fails. Ive also added in the val_accuracy checkpointing to the architecture with the original 
+parameters to observe what the results were and they were about 1.5% better with a best run of 85.7% val_accuracy. Im also
+working on bringing in the visual element of the original mobilenet model from before the break. Its tricky since the labelling
+is different to this new standard model architecture. [2 hours]
