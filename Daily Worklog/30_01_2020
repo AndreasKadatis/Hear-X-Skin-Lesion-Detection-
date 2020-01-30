@@ -1,0 +1,10 @@
+Ive committed today to just working on the model itself and not augmentation. As much as i want to, i think it would be more 
+more wise to seek better model methods. THe main problem with seeking better model methods is the fact that i am not familiar 
+enough with knowing what layers to add and what hyperparameters to adjust to get the best results. I therefore spent time today
+working through tutorials and material related to how to adress overfitting in a systematic way, and basically what it boils down
+to is adjusting the hyperparameters, while following some broad guidelines of some clear "dont do's", and following a trial and 
+error basis. So ive made some changes to the layers, and ive also increased the training dataset from 6000 to 8000, and am running 
+two gpu's, running different sets of hyperparameters, and keeping a log of the results. One thing ive just noticed is that the 
+model checkpointing is using val_loss as the standard for choosing the model to save. While this might make sense, i am after all
+looking for improvements in val_accuracy, and looking back at the original Mobilenet model from before the Christmas break, they 
+also used Val_accuracy as the metric for checkpointing. Ill look at this once the first couple of trains are through. [3 hours]
