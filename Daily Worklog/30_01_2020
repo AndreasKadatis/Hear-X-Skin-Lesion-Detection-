@@ -14,3 +14,9 @@ dropout layers and the model fails. Ive also added in the val_accuracy checkpoin
 parameters to observe what the results were and they were about 1.5% better with a best run of 85.7% val_accuracy. Im also
 working on bringing in the visual element of the original mobilenet model from before the break. Its tricky since the labelling
 is different to this new standard model architecture. [2 hours]
+
+Ran through a further 5, these took much longer however as they seemed to be workng better and so were run through completely 
+getting final accuracies in each case. The highest result was 86.8%, which is about 3% improvement on the Mobilenet results 
+from last week, but definetly not where i wanted them to be. To get them higher i think will require more detailed solutions
+and more complex and nuanced attack. Ive sent Jaco a summary of what ive done and my thoughts on the project so far, hopefully
+he'll have some advice on how to proceed next. [3 hours]
