@@ -1,0 +1,9 @@
+I have yet to hear back from Jaco regarding what i sent him. In the meantime what ive done is tried to bring over the augmented 
+dataset from the Mobilenet model from before the break. My rationale is ive added many more layers and depth of model since then
+and its possible i might be getting better results with the larger dataset. Even tho val_accuracy is around 86%, it does not des-
+cribe the whole situation properly, as it is extremely accurate in some cases, but not so much in others. What i want to see is
+if using this larger dataset will give me accuracy across all catogories, rather than just a few, possibly helping with the over
+fitting problem. Theoretically it should, as i am hugely expanding the dataset. The reason ive avoided doing it till now, is 
+since the dataset is so large, it takes much longer to train if you want any degree of accuracy. While that is running im also 
+now looking at where i will start with building an ensemble model as well as training the standard model on more permutations of
+the hyperparameters, similar to what i did yesterday. [3.5 hours]
