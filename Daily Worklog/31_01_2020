@@ -13,3 +13,10 @@ think it should be higher. Im running it with larger testing batches now to see 
 the augmented images. Trained another two versions of the standard model, both also around the 86% range, will keep doing permu
 tations of those. Ive also worked through some more ensemble model literature, and it seems doable but i am getting the feeling
 that we wont be able to get results near 95% without more data to train on. [2 hours]
+
+After running the Augmented dataset once more with a much larger training batch the result was once again not very accuracte, mid
+75%. The last of my training with the standard model was also not very good, after i introduced l1/l2 regularization in an addit
+ional layer. Ill leave this for now, as i anyway do not think in the end it will matter a whole bunch as i still believe the 
+limiting factor in all this is lack of dataset for training. Ive also started my end of work report of everything ive done, res-
+ources used, and manual for the code ive written. Ill be trying to organize a skype meeting with Jaco to discuss verbally what
+my thoughts and suspicions are, and work out what options to persue. [2 hours]
