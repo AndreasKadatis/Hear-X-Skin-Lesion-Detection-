@@ -7,3 +7,9 @@ fitting problem. Theoretically it should, as i am hugely expanding the dataset. 
 since the dataset is so large, it takes much longer to train if you want any degree of accuracy. While that is running im also 
 now looking at where i will start with building an ensemble model as well as training the standard model on more permutations of
 the hyperparameters, similar to what i did yesterday. [3.5 hours]
+
+The first results from the end of the augmented dataset is mixed, something isnt completely right, accuracy is around 75% but i
+think it should be higher. Im running it with larger testing batches now to see if its simply a question of getting through all
+the augmented images. Trained another two versions of the standard model, both also around the 86% range, will keep doing permu
+tations of those. Ive also worked through some more ensemble model literature, and it seems doable but i am getting the feeling
+that we wont be able to get results near 95% without more data to train on. [2 hours]
