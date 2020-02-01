@@ -1,0 +1,4 @@
+Im currently working through this example/tutorial in detail [https://machinelearningmastery.com/stacking-ensemble-for-deep-
+learning-neural-networks/], trying to figure out how to apply the same technique to our mobilnet case. Its slow going as once
+again my limitations in python need to be overcome, but is much better than in the beginning of this project. Im also running
+more rounds per epoch with the standard model, instead of the shortened version i used for testing different models. [3.5 hours]
