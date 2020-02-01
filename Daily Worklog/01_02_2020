@@ -2,3 +2,11 @@ Im currently working through this example/tutorial in detail [https://machinelea
 learning-neural-networks/], trying to figure out how to apply the same technique to our mobilnet case. Its slow going as once
 again my limitations in python need to be overcome, but is much better than in the beginning of this project. Im also running
 more rounds per epoch with the standard model, instead of the shortened version i used for testing different models. [3.5 hours]
+
+The results from my last standard model run produced no significant improvement on the results. This was the last work im going 
+to do on the individual model for now, and instead focus on trying to figure out what a potential ensemble model would look like,
+where i would start, and what style of model is most appropriate. Ive finished working through the tutorial referenced above, 
+and am currently working through the following resources: [3 hours]
+[https://towardsdatascience.com/the-power-of-ensembles-in-deep-learning-a8900ff42be9]
+[https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205]
+[https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/]
