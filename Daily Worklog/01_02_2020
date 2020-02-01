@@ -10,3 +10,10 @@ and am currently working through the following resources: [3 hours]
 [https://towardsdatascience.com/the-power-of-ensembles-in-deep-learning-a8900ff42be9]
 [https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205]
 [https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/]
+
+Worked through the above resources and have worked out how im going to try and implement a stacking architecture for tomorrow.
+A weighted system i dont feel is as appropriate, but in either case what is evident is that i am pretty sure we are gonna struggle
+with get better results as we do not additional datasets to train the additional models on. It is going to come down to using 
+ImageDataGenerator to generate semi autonomous datasets and then feed those into the different models. Just for a start im going 
+to use just different variants of the standard model that ive trained over the last couple of days and see if i can get an architec-
+ture working. If this is the case i can look into bringing in the resnet or VGG models that i had trained last week. [3 hours]
