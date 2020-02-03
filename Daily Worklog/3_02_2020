@@ -1,0 +1,8 @@
+Started today with beginning to write the script for the ENsemble model. While it looks relatively straightforward using the
+deepstack library, it required some adjustments and decisions when proting over from the tandard model. Once the genreal archi-
+tecture was decided upon, i had to decide which models to use as submodels. For the sake of simply getting the model functional 
+im currently training 3 differnet versions of the standard model, using different weights from the most succesful trains from
+last week. I will also use a seperate training dataset for each model, generated using ImageDataGenerator, as discussed last 
+week. The first two models are almost done training and the first version of the Ensemble model is currently ready for the sub-
+model input. [3.5 hours]
+
