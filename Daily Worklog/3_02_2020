@@ -6,3 +6,11 @@ last week. I will also use a seperate training dataset for each model, generated
 week. The first two models are almost done training and the first version of the Ensemble model is currently ready for the sub-
 model input. [3.5 hours]
 
+While the models were training i was working on the technical report that i assume Hearx will want at the end of my internship 
+with them. Basically a manual, documentating what ive done, the general theory behind the different models, and fully referenced
+with all the online resources i used throughout. Once the models were done training, i tried running my ensmeble script but ran 
+into some issues. I am apparently not saving the models correctly, and it couldnt retrieve them. Tomorrow i'll have to look into
+this, but Jaco sent a reply to what i sent him last week and raised some suggestions/issues that ill also need to be rectified.
+Ill first try and solve the ensemble issue and then look into what Jaco wants help with, mainly the data pipline for the model.
+This is encouraging as i noticed through working through many resources and examples that the way we were doing things seemed 
+to not be the norm. [4 hours]
