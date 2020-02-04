@@ -1,0 +1,8 @@
+First i looked into the keras augmentation issue Jaco raised in his email. I think i might have misunderstood the use of the 
+pre-process function. Ive emailed a response to Jaco, outlining my confusion. I also have started working through the pipelining
+suggestions of Jaco. Basically i will have to change the entire way I load in the image data for processing, but the much faster 
+training speeds suggested would be totally worth the change. Once i finish working through the material and are done running my
+original standard models ill start including this into the code. After further looking into what i did wrong for the ensemble 
+model in terms of loading in saved models i think ive fixed the issue and am waiting for the subodels to finish training so i can
+look into wehther or not it will work now. I a not going to spend too much time on this, resto f today max, as i want to work rather
+on the pipelining stuff Jaco indicated he wants me to work on rather. [4 hours]
