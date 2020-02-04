@@ -6,3 +6,11 @@ original standard models ill start including this into the code. After further l
 model in terms of loading in saved models i think ive fixed the issue and am waiting for the subodels to finish training so i can
 look into wehther or not it will work now. I a not going to spend too much time on this, resto f today max, as i want to work rather
 on the pipelining stuff Jaco indicated he wants me to work on rather. [4 hours]
+
+The ensemble model is not working and im not sure why. I ended up installing the deepstack libraries and running the code from
+my seperate ensemble model in one of my standard model notebook copies, and suddenly the model.load and model.save working work-
+ing correctly. Problem with this was that i had run the other two models and assumed that i had saved them to my google drive, but
+apparently it doesnt recognize them unless there were run in the same google notebook. I ended subbing in all three models as the
+single one i had trained in that notebook, just to see if i could get the ensemble working, and at the end received an error when
+i tried to see the accuracy results. I toyed around but wasnt able to get anything working in the end. Ill look at this again 
+tomorrow, but if i cant find a solution ill have to move on to more productive work. [3.5 hours]
