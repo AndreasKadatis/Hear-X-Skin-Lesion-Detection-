@@ -4,3 +4,10 @@ model with some of the augmentation methods from the pre-processing module from 
 makes. Ive finished working through the tf.data documentation that Jaco sent through and have looked through the google notebook 
 link Jaco sent as well. I think i see what he means, and will try and move in to my model these methods, but it may not be what he
 had in mind. If i struggle ill let him know what i think. [3.5 hours]
+
+After the two running models finished, the results of the one with the more gressive augmentation seemed to perform more poorly
+than the other ones tested last week. Also i was not able to resolve the ensemble model errors, however i did not spend as much 
+time as was needed as i wanted to move on to the pipeling material and getting the code from Jaco's notebook into my own. After 
+working through the last of the tf.data material, and understanding what it was that Jaco was attempting with his notebook, i 
+ported over the code but ran into some seemingly simple problems. Ill continue with this tomorrow but in the mean time ive emailed
+jaco my confusions, and hopefully he will be able to provide some guidance. [4 hours]
