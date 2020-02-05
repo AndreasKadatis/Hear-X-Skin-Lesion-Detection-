@@ -1,0 +1,6 @@
+Today i will shift focus from the ensemble model to incorporating the new tf.data pipelining techniques into my existing standard
+model. Today im running two notebooks, the ensemble model from yesterday (the that isnt working properly) and another mobilenet
+model with some of the augmentation methods from the pre-processing module from last year. Im curious to see what difference this 
+makes. Ive finished working through the tf.data documentation that Jaco sent through and have looked through the google notebook 
+link Jaco sent as well. I think i see what he means, and will try and move in to my model these methods, but it may not be what he
+had in mind. If i struggle ill let him know what i think. [3.5 hours]
