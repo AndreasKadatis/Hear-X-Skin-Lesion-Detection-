@@ -6,3 +6,8 @@ Was a able to sort out the glob issue, but i had to resort to a slightly differe
 is the same so regardless it should be working fine niw. That was just seperating the image labels from the actual image files,
 i now have to get the dataset correctly formed so that i can input it into the model.fit module. I can see what Jaco wants to do
 now however which is a good sign. [2.5 hours] 
+
+Ive got a full new pipeline in the notebook and everything seems to be correct, but everytime i come to running model.fit the 
+entire thing crashes and i have to restart my runtime. Evidently the model.fit isnt handling the new tf.data type correctly, either
+that or Im not handling it correctly before i feed it in. Im must say im quite stumped as to what im doing wrong, if i cant come
+figure out what im doing wrong tonight ill send through to Jaco what ive done and ask for advice. [2 hours] 
