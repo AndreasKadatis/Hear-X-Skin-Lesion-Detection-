@@ -11,3 +11,8 @@ Ive got a full new pipeline in the notebook and everything seems to be correct, 
 entire thing crashes and i have to restart my runtime. Evidently the model.fit isnt handling the new tf.data type correctly, either
 that or Im not handling it correctly before i feed it in. Im must say im quite stumped as to what im doing wrong, if i cant come
 figure out what im doing wrong tonight ill send through to Jaco what ive done and ask for advice. [2 hours] 
+
+After rewriting the dataset building code from a bunch of online resources, and re-running the notebook multiple times, i still 
+cant get model.fit to work properly. It just does not seem to be happy with how ive implemented it and i have no clue why. 
+According to all the online documentation it should be working. Ive sent off what ive done to Jaco and will continue tomorrow 
+with the ensemble model, hopefully he will be able to provide some advice as to what iss not correct. [1.5 hours]
