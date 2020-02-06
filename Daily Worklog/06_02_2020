@@ -1,3 +1,8 @@
 Today i will try and finish up porting in the new pipelining module and getting it functional. So far once again i am not able
 to get the .glob() function to recognize the images in my directory. im looking at other possible functions that might be able
 toperform the same purpose. [1.5 hours]
+
+Was a able to sort out the glob issue, but i had to resort to a slightly different technique than what Jaco uses. The outcome
+is the same so regardless it should be working fine niw. That was just seperating the image labels from the actual image files,
+i now have to get the dataset correctly formed so that i can input it into the model.fit module. I can see what Jaco wants to do
+now however which is a good sign. [2.5 hours] 
