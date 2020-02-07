@@ -1,0 +1,4 @@
+ Read through the new pipeline documentation again and i still cannot see why this isnt working. Model.fit function should be sup-
+ porting generators. Im going to move on to at least getting the ensemble model functioning. [1 hour]
+ 
+ 
