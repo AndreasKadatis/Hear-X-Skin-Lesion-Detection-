@@ -1,4 +1,6 @@
  Read through the new pipeline documentation again and i still cannot see why this isnt working. Model.fit function should be sup-
  porting generators. Im going to move on to at least getting the ensemble model functioning. [1 hour]
  
- 
+Working through the deepstack documentation properly i want to make sure what it is exactly that i am using, not just some vague
+idea of a python library. Im also working through other examples using deepstack, but so far i dont understand what the code in my 
+notebook is complaining about. [1 hour]
