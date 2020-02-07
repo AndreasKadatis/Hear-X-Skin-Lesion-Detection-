@@ -9,3 +9,11 @@ Until about half an hour ago no GPU was available for me to backend on, so ive j
 but there is unfortunately not that much to work through. The code should be very basic in terms of importing over the keras model
 into a stacked case. Hopefully once the model finishes training i will be able to get started on trying to just brute force
 get it to work by trawling stack overflow and other forums to gete it functioning, something ive avoided doing till now. [2 hours]
+
+Alright so once the model finished training, and i was able to start trawling forums, i realised just how few cases there are of 
+people using deepstack with regards to keras model building. I therefore had to resort to working line by line through the source
+code for the library at [https://github.com/jcborges/DeepStack/tree/master/deepstack]. After working testing each function with
+its respective paramter, i finally realised why i was receiving a Nonetype error, i hadnt included the validation sets into the 
+model_1/2/3 declarations (beucase the few online resources i could fine did not specify that that was the case). Once i did that
+the error dissapeared but another came up that i havent so far put enough time into to debug. It took me a very long time to figure
+out the last problem so ill look at this one again next week. [3.5 hours]
