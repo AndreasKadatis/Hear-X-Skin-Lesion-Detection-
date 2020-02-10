@@ -2,3 +2,9 @@ Today is gonna be the last day i spend trying to get the ensemble model working 
 sciklearn library, as this is where the error is, but if im not able to solve the issue then so be it. Ill then move on to trying
 a different technique. Also ill be starting the formal write up of the handover document i want to give hearx. Ive completed 
 the architecture of the report, its just a question of writing it all up now. [1 hour]
+
+I dont think im going to be able to get this ensemble model to work. Ive trawled through countless forums and posed questions 
+facing the same error and none are comparable. The impression i get is that this library is very much plug and play. It either
+works or it doesnt, because somewhere there is a small detail you've done incorrectly. Jaco has said to finish up today and get 
+started on the documentation, which is what ive done. Im currently writing it all up in overleaf, and am starting organize my 
+colab notebooks for handover. [3 hours]
